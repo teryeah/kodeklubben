@@ -138,6 +138,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content.html" />
+    <Content Include="footer.html" />
+    <Content Include="header.html" />
+    <Content Include="menu.html" />
     <Content Include="Styles\bootstrap-theme.css" />
     <Content Include="Styles\bootstrap-theme.min.css" />
     <Content Include="Styles\bootstrap.css" />

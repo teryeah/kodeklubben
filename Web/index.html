@@ -10,43 +10,23 @@
 <body>
     <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" role="banner">
         <div class="container">
-            <div class="navbar-header">
-                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".bs-navbar-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="/" class="navbar-brand">Kodeklubben Sandefjord</a>
+            <div class="navbar-header" data-view="header">
             </div>
-            <!--
-    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
-      <ul class="nav navbar-nav">
-        <li>
-          <a href="../getting-started">Getting started</a>
-        </li>
-        <li class="active">
-          <a href="../css">CSS</a>
-        </li>
-        <li>
-          <a href="../components">Components</a>
-        </li>
-        <li>
-          <a href="../javascript">JavaScript</a>
-        </li>
-        <li>
-          <a href="../customize">Customize</a>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a href="../about">About</a>
-        </li>
-      </ul>
-    </nav>-->
+            <div data-view="menu"></div>
         </div>
     </header>
 
+    <div data-view="content" style="margin-top: 50px;"></div>
+
+
+    <div id="footer" class="container">
+        <nav class="navbar navbar-default navbar-fixed-bottom">
+            <div class="navbar-inner navbar-content-center" data-view="footer">
+            </div>
+        </nav>
+    </div>
+
+    
 
     <script type="text/javascript" src="/Bifrost/Application"></script>
     <script type="text/javascript" src="Scripts/bootstrap.js"></script>
